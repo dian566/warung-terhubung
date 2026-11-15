@@ -13,7 +13,7 @@ Open http://localhost:8080 in a browser. Do not open index.html as a file: modul
 ## Relate integration
 Relate1.0.1 WebAssembly engine runs Cypher in a module worker. Supplier -> Ingredient <- Menu relationships drive the actual impact queries and active-supplier lookup. Parameters are bound, not concatenated into Cypher. No free-form query entry is exposed.
 
-Graph persistence uses OPFS with a visible in-memory fallback if OPFS is unavailable. OPFS is browser/origin-local, not shared or synced. Clearing website storage deletes it. A native `.rl` store for inspection is included in warung.rl. `seed.js` contains the synthetic seed and fixed queries, while build_store.py creates the equivalent native store using relate-db1.0.1.
+Graph persistence uses OPFS with a visible in-memory fallback if OPFS is unavailable. OPFS is browser/origin-local, not shared or synced. Clearing website storage deletes it. A native `.rl` store for inspection is included in 11-warung.rl. `seed.js` contains the synthetic seed and fixed queries, while build_store.py creates the equivalent native store using relate-db1.0.1.
 
 ## Verify
 - Telur: two affected menus, Nasi goreng and Mi goreng; two active suppliers.
@@ -25,7 +25,7 @@ Graph persistence uses OPFS with a visible in-memory fallback if OPFS is unavail
 This is a single-browser prototype. Mobile viewport tests are not physical Android device tests. Contest registration and submission remain separate from this public code release. A live demo is enabled through GitHub Pages once deployment completes.
 
 ## Third-party license
-Bundled engine: @relate/relate-wasm1.0.1, Apache2.0, https://github.com/relatedb/relate . The vendor engine binary and OPFS implementation are unchanged. The relate.js import path is adjusted to ./opfs.js for this flat static release; no engine behavior was changed. See THIRD_PARTY_LICENSE.txt. Original project code: MIT, see LICENSE. The vendor remains Apache 2.0.
+Bundled engine: @relate/relate-wasm1.0.1, Apache2.0, https://github.com/relatedb/relate . The vendor engine binary and OPFS implementation are unchanged. The binary artifact is named 9-relate_bg.wasm. The relate.js WASM URL and import path are adjusted to ./opfs.js for this flat static release; no engine behavior was changed. See THIRD_PARTY_LICENSE.txt. Original project code: MIT, see LICENSE. The vendor remains Apache 2.0.
 
 ## Development assistance
 AI assistance was used for the original application code and tests. No private work-session records, secrets or personal data are included. Significant AI assistance must be disclosed in any eventual contest submission.
