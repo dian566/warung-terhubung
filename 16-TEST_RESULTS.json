@@ -1,0 +1,47 @@
+[
+  {
+    "width": 320,
+    "engine": "Relate WASM 1.0.1",
+    "initialGraph": "passed",
+    "stockUpdate": "passed",
+    "supplierToggle": "passed",
+    "persistenceAfterReload": "passed",
+    "english": "passed",
+    "invalidStockRejected": "passed",
+    "reset": "passed",
+    "chickenSupplierRecovery": "passed",
+    "horizontalOverflow": false,
+    "pageErrors": [],
+    "externalNetworkRequests": 0
+  },
+  {
+    "width": 390,
+    "engine": "Relate WASM 1.0.1",
+    "initialGraph": "passed",
+    "stockUpdate": "passed",
+    "supplierToggle": "passed",
+    "persistenceAfterReload": "passed",
+    "english": "passed",
+    "invalidStockRejected": "passed",
+    "reset": "passed",
+    "chickenSupplierRecovery": "passed",
+    "horizontalOverflow": false,
+    "pageErrors": [],
+    "externalNetworkRequests": 0
+  },
+  {
+    "width": 1280,
+    "engine": "Relate WASM 1.0.1",
+    "initialGraph": "passed",
+    "stockUpdate": "passed",
+    "supplierToggle": "passed",
+    "persistenceAfterReload": "passed",
+    "english": "passed",
+    "invalidStockRejected": "passed",
+    "reset": "passed",
+    "chickenSupplierRecovery": "passed",
+    "horizontalOverflow": false,
+    "pageErrors": [],
+    "externalNetworkRequests": 0
+  }
+]
